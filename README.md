@@ -18,13 +18,16 @@ character sprite. Nothing here is loaded by the game at runtime.
 
 ```
 character/
-  key_sit.png     sitting key, rod held low          (source, 1200x1406)
-  key_cast.png    casting key, rod bent             (source, 1200x1284)
-  ref_reel.png    reeling pose, paws at chest       (generated, 1254x1254)
-  ref_rodup.png   rod raised overhead               (generated, 1254x1254)
+  key_sit.png     sitting key, cat holding rod, matted    (1200x1406)
+  ref_reel.png    reeling pose, paws at chest, matted     (1265x1100)
+  ref_rodup.png   rod raised overhead, matted            (1200x1279)
+  ref_hook.png    hooked fish, leaning back, matted      (1220x1100)
+  MAPPING.md      local-name mapping + known limitations
 ```
 
-Raw URL form used by KIE:
+All are RGBA with a real alpha channel and 0.0% soft pixels.
+
+Raw URL form used by the video model:
 
 ```
 https://raw.githubusercontent.com/dian0722/game_art/main/character/key_sit.png
